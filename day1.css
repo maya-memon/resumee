@@ -1,0 +1,100 @@
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    
+    
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    padding: 3px 3px;
+    margin: 13px 23px;
+
+
+
+}
+.navbar li:hover{
+    background-color: red;
+}
+.search {
+    float: right;
+    color: white;
+    padding: 12px 75px;
+
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    width: 129px;
+
+
+}
+.section{
+    margin-top: 25px;
+    height: 500px;
+
+    background-image: url(element5-digital-ceWgSMd8rvQ-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    
+}
+.container{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    gap: 20px;
+    height: 400px;
+
+}
+.box1,.box2,.box3,.box4{
+    width: 25%;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+.box1{
+    background-image: url(lipstick.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box2{
+    background-image: url(nailpolish.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box3{
+    background-image: url(facepowder.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box4{
+    background-image: url(blush.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+    margin-top: 14px;
+    height: 150px;
+  
+  }
+  .center{
+    text-align: center ;
+
+    margin: 34px;
+
+  }
+
+  
